@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nanum+Gothic:wght@400;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,400&family=Quicksand:wght@300;400;500;600;700&family=Sen&display=swap');
+.main{
+    padding: 60px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.main1{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    width: 45%;
+}
+
+.main1 .input{
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #33b5e5;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #33b5e5;
+}
+
+.main1 .button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#buttonhai{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main1 .input:focus {
+    outline: none;
+}
+
+.answerHead{
+    color: #33b5e5;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.main1 h1{
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.main2{
+    width: 50%;
+    padding: 20px;
+    border-left: 1px solid #33b5e5;
+}
+
+.main2 h2{
+    font-weight: 200;
+}
+
+.answer{
+    padding: 10px;
+    margin: 30px 0px 30px 0px;
+    border: 1px solid #33b5e5;
+    text-align: center;
+    color: #33b5e5;
+}
+
+.procedure{
+    list-style: none;
+    color: #33b5e5;
+    padding: 10px;
+}
+
+.procedure li{
+    margin: 3px;
+}
+
+
+.procedurecontainer{
+    height: 60vh;
+    box-shadow: inset 0 0 15px #33b5e5;
+    overflow-y: scroll;
+}
+
+.procedurecontainer1{
+    height: 60vh;
+    box-shadow: inset 0 0 15px #33b5e5;
+}
+
+.procedurecontainer::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 4px;
+}
+
+.procedurecontainer::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.procedurecontainer::-webkit-scrollbar-thumb {
+    background-color: #33b5e5;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 800px){
+    .main{
+        flex-direction: column;
+    }
+    .main1{
+        width: 100%;
+    }
+    .main2{
+        width: 100%;
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main{
+        padding: 0;
+    }
+    .main1{
+        height: 40vh;
+        padding: 20px 20px 0px 20px;
+    }
+    .main2{
+        height: 45vh;
+    }
+    .procedurecontainer{
+        height: 45vh;
+    }
+    .procedurecontainer1{
+        height: 45vh;
+    }
+}
