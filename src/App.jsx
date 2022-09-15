@@ -2,7 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import Header from './components/Header'
 import Main from './components/Main'
-import {BrowserRouter, Route, Routes, Link} from 'react-router-dom'
+import {HashRouter, Route, Routes, Link} from 'react-router-dom'
 import InfixPrefix from './pages/InfixPrefix'
 import InfixPostfix from './pages/InfixPostfix'
 import PostfixEvaluation from './pages/PostfixEvaluation'
@@ -13,7 +13,7 @@ import SharedLayout from './pages/SharedLayout'
 
 const App = () => {
   return (
-    <BrowserRouter basename="/Dsa-App">
+    <HashRouter>
     <Routes>
       <Route path = '/' element = {<SharedLayout/>}>
         <Route path= "home" index element ={<Main/>}/>
@@ -25,7 +25,7 @@ const App = () => {
         <Route path = "Balanced-parenthesis" element={<BalancedParenthesis/>}/>
       </Route>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
