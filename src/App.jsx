@@ -13,7 +13,7 @@ import SharedLayout from './pages/SharedLayout'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Dsa-App">
     <Routes>
       <Route path = '/' element = {<SharedLayout/>}>
         <Route path= "home" index element ={<Main/>}/>
