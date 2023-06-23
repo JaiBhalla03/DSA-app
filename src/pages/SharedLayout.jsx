@@ -7,6 +7,7 @@ const SharedLayout = () => {
     <>
     <Header/>
     <Outlet/>
+      <strong className={'text-info d-flex justify-content-center'}>Developed By Jai Bhalla</strong>
     </>
   )
 }

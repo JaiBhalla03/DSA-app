@@ -13,7 +13,7 @@ const Header = () => {
     <Navbar collapseOnSelect expand="lg" bg="info" variant="warning">
       <Container>
         <Navbar.Brand href="#home" variant="light" className="icon">
-          <Link to="/home" style={{textDecoration:"none", color: "#404040"}}>
+          <Link to="/" style={{textDecoration:"none", color: "#404040"}}>
             <motion.div
             whileHover={{
               scale: 1.2

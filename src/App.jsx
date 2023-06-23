@@ -16,7 +16,7 @@ const App = () => {
     <BrowserRouter>
     <Routes>
       <Route path = '/' element = {<SharedLayout/>}>
-        <Route path= "home" index element ={<Main/>}/>
+        <Route path= "/" index element ={<Main/>}/>
         <Route path = "infix-to-postfix" element={<InfixPostfix/>}/>
         <Route path = "infix-to-prefix" element={<InfixPrefix/>}/>
         <Route path = "postfix-evaluation" element={<PostfixEvaluation/>}/>
