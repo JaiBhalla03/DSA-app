@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 
 const Main = () => {
   return (
-      <Container className="mx-4 py-4 text-info">
+      <Container className="px-4 py-4 text-info">
         <h1 className="font-monospace">This is a DSA Application</h1>
         <p>
           Welcome to the DSA Application! This website aims to provide step-by-step procedures for various DSA (Data Structures and Algorithms) operations, helping you understand and visualize the algorithms in action.
